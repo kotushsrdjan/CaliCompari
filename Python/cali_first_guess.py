@@ -13,7 +13,7 @@ import json
 first_guesses = {}
 first_guesses.update({'shift':float(sys.argv[1]),
                       'fix_shift':False,
-                      'limit_shift':(-1.5, 1.5),
+                      'limit_shift':(-3.0, 3.0),
                       'error_shift':0.03})
 first_guesses.update({'slope':float(sys.argv[2]),
                       'fix_slope':False,
